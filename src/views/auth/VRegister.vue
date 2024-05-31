@@ -1,0 +1,38 @@
+<script setup lang="ts">
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Label } from '@/components/ui/label'
+</script>
+
+<template>
+  <div class="grid gap-2 text-center">
+    <h1 class="text-3xl font-bold">Register</h1>
+    <p class="text-balance text-muted-foreground">
+      Enter your email below to create a new account
+    </p>
+  </div>
+  <div class="grid gap-4">
+    <div class="grid gap-2">
+      <Label for="email">Email</Label>
+      <Input id="email" type="email" placeholder="m@example.com" required />
+    </div>
+    <div class="grid gap-2">
+      <div class="flex items-center">
+        <Label for="password">Password</Label>
+      </div>
+      <Input id="password" type="password" required />
+    </div>
+    <div class="grid gap-2">
+      <div class="flex items-center">
+        <Label for="password">Confirm password</Label>
+      </div>
+      <Input id="password" type="password" required />
+    </div>
+    <Button type="submit" class="w-full"> Register </Button>
+    <Button variant="outline" class="w-full"> Register with Google </Button>
+  </div>
+  <div class="mt-4 text-center text-sm">
+    Alreay have an account?
+    <RouterLink to="/auth/login" class="underline"> Login </RouterLink>
+  </div>
+</template>

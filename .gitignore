@@ -28,9 +28,3 @@ coverage
 *.sw?
 
 *.tsbuildinfo
-
-# IDE
-.vscode
-
-# Env
-.env

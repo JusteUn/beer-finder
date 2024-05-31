@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 
 const mode = useColorMode()
 
-function onChange() {
+function toggleTheme() {
   if (mode.value == 'light') {
     mode.value = 'dark'
   } else if (mode.value == 'dark') {
@@ -15,7 +15,7 @@ function onChange() {
 </script>
 
 <template>
-  <Button variant="ghost" @click="onChange">
+  <Button variant="ghost" @click="toggleTheme">
     <Icon
       icon="radix-icons:moon"
       class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"

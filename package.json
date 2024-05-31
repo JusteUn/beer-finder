@@ -1,5 +1,5 @@
 {
-  "name": "beer",
+  "name": "happicole-dashboard",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -13,20 +13,20 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "@vueuse/core": "^10.10.0",
+    "@vueuse/core": "^10.9.0",
     "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.1",
-    "lucide-vue-next": "^0.379.0",
+    "clsx": "^2.1.0",
+    "lucide-vue-next": "^0.368.0",
     "pinia": "^2.1.7",
-    "radix-vue": "^1.8.2",
-    "tailwind-merge": "^2.3.0",
+    "radix-vue": "^1.7.0",
+    "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@iconify-json/radix-icons": "^1.1.14",
-    "@iconify/vue": "^4.1.2",
+    "@iconify/vue": "^4.1.1",
     "@rushstack/eslint-patch": "^1.8.0",
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.12.5",
@@ -38,6 +38,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.23.0",
     "npm-run-all2": "^6.1.2",
+    "postcss": "^8.4.38",
     "prettier": "^3.2.5",
     "tailwindcss": "^3.4.3",
     "typescript": "~5.4.0",
