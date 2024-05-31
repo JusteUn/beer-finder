@@ -31,3 +31,6 @@ coverage
 
 # IDE
 .vscode
+
+# Env
+.env
